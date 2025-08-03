@@ -1,0 +1,25 @@
+# Unreal Engine folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.log
+
+# macOS files
+.DS_Store
+
+# Build output
+Build/
+
+# Optional: ignore .exe or cooked builds
+*.exe
+*.dll
+*.app
