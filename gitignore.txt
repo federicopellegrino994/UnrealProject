@@ -1,0 +1,33 @@
+# Unreal Engine: cartelle temporanee e ricostruibili
+/Binaries/
+/Build/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# IDE e configurazioni locali
+.vscode/
+.vs/
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userosscache
+
+# File di log
+*.log
+
+# File di sistema (macOS / Windows)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File eseguibili o compilati (opzionale, se non distribuisci build)
+*.exe
+*.dll
+*.app
+*.pdb
+
+# Evita di tracciare accidentalmente il file di asset registry enorme
+Intermediate/CachedAssetRegistry_*.bin
