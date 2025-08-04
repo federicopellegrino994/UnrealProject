@@ -1,8 +1,11 @@
-# Unreal Engine folders
-Binaries/
-DerivedDataCache/
-Intermediate/
-Saved/
+# Unreal Engine: cartelle temporanee e ricostruibili
+/Binaries/
+/Build/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# IDE e configurazioni locali
 .vscode/
 .vs/
 *.VC.db
@@ -11,15 +14,20 @@ Saved/
 *.suo
 *.user
 *.userosscache
+
+# File di log
 *.log
 
-# macOS files
+# File di sistema (macOS / Windows)
 .DS_Store
+Thumbs.db
+desktop.ini
 
-# Build output
-Build/
-
-# Optional: ignore .exe or cooked builds
+# File eseguibili o compilati (opzionale, se non distribuisci build)
 *.exe
 *.dll
 *.app
+*.pdb
+
+# Evita di tracciare accidentalmente il file di asset registry enorme
+Intermediate/CachedAssetRegistry_*.bin
